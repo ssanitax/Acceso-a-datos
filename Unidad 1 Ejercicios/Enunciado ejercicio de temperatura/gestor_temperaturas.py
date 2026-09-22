@@ -8,9 +8,7 @@ def escribir_temperaturas():
     # tu código aquí
     print("\n--- 1. Flujo de salida: escribiendo en el fichero ---")
     flujo = open(NOMBRE_FICHERO_TEMPERATURAS, "w")
-    flujo.write("18.5\n")
-    flujo.write("21.0\n")
-    flujo.write("19.2\n")
+    flujo.write("18.5\n21.0\n19.2\n")
     flujo.close()
     print(f"Se ha escrito '{NOMBRE_FICHERO_TEMPERATURAS}' correctamente.")
 
